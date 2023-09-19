@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
                 p0?.run{
                     val textSize = getItemAtPosition(p2).toString()
 
-                    displayTextView.setTextSize(textSize)
+
+                    displayTextView.textSize = textSize.toFloat()
                 }
             }
 
